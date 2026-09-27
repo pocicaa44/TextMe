@@ -1,0 +1,9 @@
+## Example local.properties for TextMe
+## Copy this file to `local.properties` and replace placeholder values with your own configuration.
+
+# Path to the Android SDK
+sdk.dir=/path/to/Android/Sdk
+
+# Supabase Project Configuration
+supabase.url=https://your-project-ref.supabase.co
+supabase.anon.key=your-supabase-anon-key-here
