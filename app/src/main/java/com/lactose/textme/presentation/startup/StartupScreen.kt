@@ -80,7 +80,7 @@ private fun LoadingView(message: String) {
         Spacer(modifier = Modifier.height(24.dp))
 
         Text(
-            text = "TextMe",
+            text = "Text Me",
             style = MaterialTheme.typography.headlineMedium.copy(
                 fontWeight = FontWeight.Bold
             ),

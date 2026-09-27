@@ -16,6 +16,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.lactose.textme.BuildConfig
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -262,6 +263,12 @@ fun SettingsScreen(
                             text = "TextMe is a temporary, 1-to-1 anonymous messaging application. All conversations and identities automatically vanish after 24 hours.",
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                        Spacer(modifier = Modifier.height(8.dp))
+                        Text(
+                            text = "Version ${BuildConfig.VERSION_NAME} (${BuildConfig.VERSION_CODE})",
+                            style = MaterialTheme.typography.labelSmall,
+                            color = MaterialTheme.colorScheme.outline
                         )
                     }
                 }

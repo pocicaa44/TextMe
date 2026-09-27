@@ -51,7 +51,7 @@ class StartupViewModel(
 
     fun initStartup() {
         viewModelScope.launch(coroutineDispatcher) {
-            _uiState.update { StartupUiState.Initializing("Connecting to Supabase...") }
+            _uiState.update { StartupUiState.Initializing("Initializing...") }
 
             // 1. Verify Configuration
             if (!SupabaseNetworkClient.isConfigured()) {
