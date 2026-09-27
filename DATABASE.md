@@ -7,7 +7,7 @@ This document contains the complete database schema, Row Level Security (RLS) po
 ## How to Apply Schema to Your Supabase Project
 
 1. Log in to your [Supabase Dashboard](https://supabase.com/dashboard).
-2. Select your project (**tksreesyisocehkfcrpe**).
+2. Select your project (or create a new project).
 3. Navigate to **SQL Editor** in the left sidebar.
 4. Click **New Query**.
 5. Copy the entire contents of [`supabase/schema.sql`](file:///run/media/dwnt/DATA/project_dewanto/android_app/TextMe/supabase/schema.sql) and paste them into the SQL Editor.
